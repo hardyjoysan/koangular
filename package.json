@@ -1,0 +1,27 @@
+{
+  "name": "koangular",
+  "version": "1.0.0",
+  "description": "NodeJs restful API build with Koa, MongoDB, Angular and more",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "koa",
+    "mongodb",
+    "angular",
+    "restapi",
+    "restful",
+    "boilerplate"
+  ],
+  "author": "Hardy Joyson",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
