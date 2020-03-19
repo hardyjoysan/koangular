@@ -19,7 +19,9 @@
   "author": "Hardy Joyson",
   "license": "ISC",
   "dependencies": {
-    "koa": "^2.11.0"
+    "@koa/router": "^8.0.8",
+    "koa": "^2.11.0",
+    "koa-combine-routers": "^4.0.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
