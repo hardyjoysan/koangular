@@ -20,8 +20,7 @@
   "license": "ISC",
   "dependencies": {
     "@koa/router": "^8.0.8",
-    "koa": "^2.11.0",
-    "koa-combine-routers": "^4.0.2"
+    "koa": "^2.11.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
