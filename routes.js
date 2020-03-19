@@ -6,12 +6,12 @@ const userController = require('./controllers/userController');
 
 // User routes
 router
-    .get('/user', userController.findOne)
     .get('/users', userController.findAll)
+    .get('/user', userController.findOne)
 
 // Posts routes
 router
-    .get('/post', postController.findOne)
     .get('/posts', postController.findAll)
+    .get('/post', postController.findOne)
 
 module.exports = router;
