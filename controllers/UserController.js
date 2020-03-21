@@ -1,6 +1,6 @@
 const DBconnect = require('../database/DBconnect');
 
-class Controller{
+class UserController{
 
     findAll = async (ctx) => {
         await DBconnect.find('uxcollection',{}).then(result =>{
@@ -14,6 +14,4 @@ class Controller{
 
 }
 
-const controller = new Controller();
-
-module.exports = controller;
+module.exports = new UserController;

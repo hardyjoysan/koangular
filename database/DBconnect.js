@@ -8,7 +8,7 @@ const options = {
 
 class DBConnect {
 
-    static async connect (collection) {
+    static connect = async(collection) => {
         try {
             const client = await MongoClient.connect(uri, options);
             return client.db(db).collection(collection);
@@ -18,7 +18,7 @@ class DBConnect {
         }
     }
 
-    static async find(collection, query) {
+    static find = async(collection, query) => {
         const collect = await DBConnect.connect(collection);
         return collect.find(query).toArray();
     }

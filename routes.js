@@ -1,8 +1,9 @@
 const Router = require("@koa/router");
 const router = new Router({ prefix: '/api'});
 
-const postController = require('./controllers/postController');
-const userController = require('./controllers/userController');
+const userController = require('./controllers/UserController');
+const postController = require('./controllers/PostController');
+
 
 // User routes
 router

@@ -1,4 +1,4 @@
-class Controller{
+class PostController{
 
     findOne = async (ctx) => {
         ctx.body = ["Post"];
@@ -9,6 +9,4 @@ class Controller{
     }
 }
 
-const controller = new Controller();
-
-module.exports = controller;
+module.exports = new PostController;
