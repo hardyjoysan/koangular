@@ -20,6 +20,7 @@
   "license": "ISC",
   "dependencies": {
     "@koa/router": "^8.0.8",
+    "googleapis": "^48.0.0",
     "koa": "^2.11.0",
     "mongodb": "^3.5.5"
   },
